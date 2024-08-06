@@ -1,0 +1,31 @@
+.wrapper {
+  gap: 1rem;
+  padding: 0.6rem 0.8rem;
+  width: 100%;
+}
+
+.checkbox {
+  width: 1rem;
+  height: 1rem;
+}
+
+.wrapper:not(:last-child) {
+  border-bottom: 1px solid gainsboro;
+}
+
+.titleAndTimeContainer {
+  flex: 1 1 30%;
+  gap: 1rem;
+}
+
+.description {
+  flex: 1 1 40%;
+}
+
+.titleAndTimeWrapper {
+  align-items: start;
+}
+
+.complete {
+  background-color: #1bbe39;
+}

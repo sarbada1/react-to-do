@@ -1,0 +1,9 @@
+.container {
+  padding: 1rem;
+}
+
+.heading {
+  font-weight: bolder;
+  color: dodgerblue;
+  margin-bottom: 0.5rem;
+}

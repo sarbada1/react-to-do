@@ -1,0 +1,16 @@
+.wrapper {
+  /* gap: 2px; */
+  /* gap: 4px; */
+}
+
+.all-btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.running-btn {
+  border-radius: 0;
+}
+.completed-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

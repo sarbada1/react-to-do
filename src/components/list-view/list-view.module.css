@@ -1,0 +1,11 @@
+.wrapper {
+  gap: 0.5rem;
+  /* border: 1px solid gainsboro;
+  border-radius: 0.5rem; */
+}
+
+.empty {
+  font-size: 2rem;
+  color: dodgerblue;
+  margin-top: 2rem;
+}

@@ -1,0 +1,68 @@
+.form-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: dodgerblue;
+}
+
+.close-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  padding: 0.3rem;
+  border-radius: 50%;
+  transition: 0.1s;
+}
+
+.close-icon:hover {
+  color: red;
+  background-color: gainsboro;
+}
+
+.form {
+  z-index: 9;
+  position: absolute;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  margin-top: 5rem;
+  min-width: 30rem;
+  animation: fadeIn 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-180px) scale(0.5);
+    opacity: 0.4;
+  }
+  to {
+    transform: translateY(0px) scale(1);
+    opacity: 1;
+  }
+}
+.label {
+  display: block;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-block: 1rem 0.3rem;
+}
+
+.input {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #0009;
+  backdrop-filter: blur(0.2rem);
+}

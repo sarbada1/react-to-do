@@ -1,0 +1,27 @@
+.button {
+  /* border: 2px solid dodgerblue; */
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #fff;
+  background-color: dodgerblue;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s linear;
+}
+
+.button:hover {
+  background-color: #057aef;
+}
+
+.button:focus {
+  outline: 4px solid #1e8fff62;
+}
+
+.active {
+  /* outline: 4px solid #1e8fff62; */
+  background-color: #057aef;
+}

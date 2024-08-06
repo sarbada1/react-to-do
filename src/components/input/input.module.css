@@ -1,0 +1,18 @@
+.input {
+  border: 2px solid dodgerblue;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: dodgerblue;
+}
+
+.input:focus {
+  outline: 4px solid #1e8fff62;
+}
+
+.textarea {
+  height: 6rem;
+  resize: none;
+}

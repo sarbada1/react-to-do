@@ -1,0 +1,11 @@
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.th {
+  padding: 0.6rem 0;
+  font-weight: bold;
+  color: dodgerblue;
+  border-bottom: 1px solid gainsboro;
+}
